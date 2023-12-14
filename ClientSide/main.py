@@ -27,7 +27,6 @@ def main():
     commands until 'exit'.
     """
     print(SUPPORTED_COMMANDS)
-    print(FORMAT)
     try:
         my_socket.connect((IP, PORT))
         while True:
